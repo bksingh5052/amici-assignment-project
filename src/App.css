@@ -1,0 +1,15 @@
+.gradient-text {
+  /* Apply the provided gradient */
+  background: rgb(179, 59, 58);
+  background: -moz-linear-gradient(135deg, rgba(179, 59, 58, 1) 63%, rgba(33, 115, 208, 1) 64%);
+  background: -webkit-linear-gradient(135deg, rgba(179, 59, 58, 1) 63%, rgba(33, 115, 208, 1) 64%);
+  background: linear-gradient(135deg, rgba(179, 59, 58, 1) 63%, rgba(33, 115, 208, 1) 64%);
+
+  /* Clip the gradient to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Make the text transparent to show the gradient */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
